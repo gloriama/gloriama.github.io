@@ -1,23 +1,25 @@
-# ReduxSimpleStarter
+# Gloria Ma - Personal Website
 
-###Getting Started###
+This is a work in progress.
 
-There are two methods for getting started with this repo.
+Visit the site live at [gloriama.github.io](https://gloriama.github.io)!
 
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
+## Tech Stack
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
+The site was built in React/Redux.
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## Terminal Commands
 
-```
-	> npm install
-	> npm start
-```
+After cloning down the repo, you will need to use the following commands:
+
+### For development: ```npm start```
+
+This starts the webpack dev server, which will automatically update and serve a ```bundle.js``` file from your local server on port 8080. This is used to make development more convenient.
+
+### For production: ```webpack```
+
+This creates the static ```bundle.js``` file of all JavaScript/ES6 needed for the app. Do this before pushing production changes to the repo, so that the corresponding GitHub Pages site will reflect your latest changes.
+
+## Acknowledgments
+
+I used Stephen Grider's [React/Redux starter repo](https://github.com/StephenGrider/ReduxSimpleStarter) to get set up. It includes the barebones of a React/Redux app and all the Webpack and Babel configuration needed to get off the ground. Definitely check it out if you are new to React/Redux and want to create your own app!

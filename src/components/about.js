@@ -3,16 +3,14 @@ import React, { Component } from 'react';
 export default class extends Component {
   render() {
     return (
-      <div>
-        <h2>About</h2>
-
+      <div className="content">
         <p>
           Hello! I'm a software engineer, teacher, and motivational speaker.
           I focus on helping others achieve their full potential via cognitive coaching,
           which combines effective learning techniques and psychology concepts.
         </p>
 
-        <h3>Background</h3>
+        <h3 className="about-heading">Background</h3>
 
         <p>
           I graduated with a Bachelor's in Computer Science in 2014.
@@ -21,7 +19,7 @@ export default class extends Component {
           in its potential to help people.
         </p>
 
-        <h3>Next steps</h3>
+        <h3 className="about-heading">Next steps</h3>
 
         <p>
           Currently, my focus is on creating intelligent learning software,
@@ -34,7 +32,7 @@ export default class extends Component {
           and I spend 20 hours a week mentoring junior developers.
         </p>
 
-        <h3>Other stuff I enjoy</h3>
+        <h3 className="about-heading">Other stuff I enjoy</h3>
 
         <p>
           Music: I can pick out a tune on the piano or violin pretty easily,

@@ -1,33 +1,43 @@
-body {
-  font-family: 'Yantramanav', sans-serif;
-}
-
 /* Colors
   Primary: #ff1300 (slightly orange red)
   Secondary: #03899c (dark muted turquoise)
   Tertiary: #95ec00 (neon green)
 */
 
+/* App-wide */
+body {
+  font-family: 'Yantramanav', sans-serif;
+}
+.content {
+  padding: 30px;
+}
+
 /* Navigation */
 .nav-bar {
   display: flex;
   height: 50px;
   width: 100%;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, .16);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .16);
 }
 .nav-logo {
   margin: auto;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .nav-link {
   margin: auto;
   text-decoration: none;
-  color: #bf3a30;
+  color: #ff1300;
   padding: 10px;
   border-bottom: solid transparent 3px;
 }
 .nav-link:hover {
-  color: #ff1300;
   border-bottom: solid #ff1300 3px;
+}
+
+/* About */
+.about-heading {
+  margin: 30px auto 10px;
+  font-size: 1.5em;
 }

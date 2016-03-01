@@ -4,7 +4,15 @@ export default class extends Component {
   render() {
     return (
       <div>
-        Projects page
+        Pinpoint
+        <br />
+        FriendDB
+        <br />
+        Whereabouts
+        <br />
+        Habituate
+        <br />
+        Perfect Pitch Trainer
       </div>
     );
   }

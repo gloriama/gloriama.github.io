@@ -1,0 +1,13 @@
+body {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+/* Navigation */
+.nav-bar {
+  display: flex;
+  height: 50px;
+  border: solid black 1px;
+}
+.nav-item {
+  margin: auto;
+}

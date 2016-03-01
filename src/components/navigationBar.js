@@ -4,11 +4,11 @@ import { Link } from 'react-router';
 export default class extends Component {
   render() {
     return (
-      <div>
-        <Link to='/'>Projects</Link> |&nbsp;
-        <Link to='/about'>About</Link> |&nbsp;
-        <Link to='/resume'>Resume</Link> |&nbsp;
-        <Link to='/contact'>Contact</Link>
+      <div className="nav-bar">
+        <Link className="nav-item" to='/'>Projects</Link>
+        <Link className="nav-item" to='/about'>About</Link>
+        <Link className="nav-item" to='/resume'>Resume</Link>
+        <Link className="nav-item" to='/contact'>Contact</Link>
       </div>
     );
   }

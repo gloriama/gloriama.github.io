@@ -4,7 +4,7 @@ export default class extends Component {
   render() {
     return (
       <div>
-        Testing
+        About page
       </div>
     );
   }

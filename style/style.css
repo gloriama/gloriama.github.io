@@ -2,12 +2,32 @@ body {
   font-family: 'Yantramanav', sans-serif;
 }
 
+/* Colors
+  Primary: #ff1300 (slightly orange red)
+  Secondary: #03899c (dark muted turquoise)
+  Tertiary: #95ec00 (neon green)
+*/
+
 /* Navigation */
 .nav-bar {
   display: flex;
   height: 50px;
-  border: solid black 1px;
+  width: 100%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .16);
 }
-.nav-item {
+.nav-logo {
   margin: auto;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.nav-link {
+  margin: auto;
+  text-decoration: none;
+  color: #bf3a30;
+  padding: 10px;
+  border-bottom: solid transparent 3px;
+}
+.nav-link:hover {
+  color: #ff1300;
+  border-bottom: solid #ff1300 3px;
 }

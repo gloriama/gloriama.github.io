@@ -23,3 +23,5 @@ This creates the static ```bundle.js``` file of all JavaScript/ES6 needed for th
 ## Acknowledgments
 
 I used Stephen Grider's [React/Redux starter repo](https://github.com/StephenGrider/ReduxSimpleStarter) to get set up. It includes the barebones of a React/Redux app and all the Webpack and Babel configuration needed to get off the ground. Definitely check it out if you are new to React/Redux and want to create your own app!
+
+I also heavily referenced [Hahnbi Sun](https://github.com/hahnbi)'s styling from a project named [Battle Code](https://github.com/Dexterous-Rambutan/battle-code). I have copied gratuitously as a form of education, and styling will diverge significantly as this repo progresses.

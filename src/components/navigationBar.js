@@ -5,10 +5,11 @@ export default class extends Component {
   render() {
     return (
       <div className="nav-bar">
-        <Link className="nav-item" to='/'>Projects</Link>
-        <Link className="nav-item" to='/about'>About</Link>
-        <Link className="nav-item" to='/resume'>Resume</Link>
-        <Link className="nav-item" to='/contact'>Contact</Link>
+        <h1 className="nav-logo">Gloria Ma</h1>
+        <Link className="nav-link" to='/'>Projects</Link>
+        <Link className="nav-link" to='/about'>About</Link>
+        <Link className="nav-link" to='/resume'>Resume</Link>
+        <Link className="nav-link" to='/contact'>Contact</Link>
       </div>
     );
   }
